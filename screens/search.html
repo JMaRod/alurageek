@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda geek - busqueda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/banner.css">
+    <link rel="stylesheet" href="../assets/css/buttons.css">
+    <link rel="stylesheet" href="../assets/css/products.css">
+    <link rel="stylesheet" href="../assets/css/category.css">
+    <link rel="stylesheet" href="../assets/css/card.css">
+    <link rel="stylesheet" href="../assets/css/cardImg.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="../assets/css/forms.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="header__logo"></a>
+        <div class="header__buttonSession__container">
+            <div class="header__buttonSession">
+                <button class="header__buttonSession__link">LOGIN</button>
+            </div>
+        </div>
+        <div class="form__items__search__container">
+        
+    </header>
+    <main>
+        <section class="banner">
+            <div class="banner__content">
+                <h2 class="banner__tittle">Promoción de Julio</h2>
+                <h3 class="banner__subtittle">Productos seleccionados con 33% de descuento</h3>
+                <a class="banner__button button__square" id="buttonPromotion">Ver Consolas</a>
+            </div>
+        </section>
+        <section class="search">
+            <form action="#" class="form__items__search">
+                <input name="search" id="search" class="form__input__search form__input--section form__input__search--center" type="text" autocomplete="off" data-tipo="buscar" placeholder="¿Qué deseas buscar?" required>
+                <button type="submit" class="button__head header__search header__search--big material-symbols-outlined">search</button>
+            </form>
+        </div>
+        </section>
+        <section class="products">   
+            <div class="category" id="Busqueda">
+                <div class="category__tittle">
+                    <h2 class="category__tittle__text">
+                        Busqueda
+                    </h2>
+                </div>
+                <div class="cards__container">
+                    <template id="templateCard">
+                        <div class="card card--hidden">
+                            <div class="card__img card__img--"></div>
+                            <div class="card__tittle"></div>
+                            <div class="card__subTittle"></div>
+                            <a  class="card__link" href="./description.html"><span>Ver Producto</span></a>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container__links">
+                <div class="logo">
+                    <div class="logo__img">
+                    </div>
+                </div>
+                <div class="about__container">
+                    <a class="about__links" href="">Quienes somos</a>
+                    <a class="about__links" href="">Politica de privacidad</a>
+                    <a class="about__links" href="">Programa de fidelidad</a>
+                    <a class="about__links" href="">Nuestras Tiendas</a>
+                    <a class="about__links" href="">Quiero ser franquiciado</a>
+                    <a class="about__links" href="">Anúncie aquí</a>
+                </div>
+            </div>
+            <div class="form">
+                <h2 class="form__tittle">Hable con nosotros</h2>
+                <form action="#" class="form__contact">
+                    <div class="form__items">
+                        <label for="name" class="form__label">Nombre</label>
+                        <input name="name" id="name" class="form__input form__input__contact" type="text" autocomplete="off" required data-tipo="nombre">
+                        <!-- <span class="form__input__error"></span> -->
+                    </div>
+                    <div class="form__items">
+                        <label for="message" class="form__label">Mensaje</label>
+                        <textarea type="text" id="message" name="message" class="form__input form__input__contact" required data-tipo="mensaje" maxlength="120" autocomplete="off" ></textarea>
+                        <!-- <span class="form__textarea__error"></span> -->
+                    </div>
+                    <div class="form__send">
+                        <button class="button__square" type="submit" id="submitContact">Enviar mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">  
+        <div class="footer__text">Desarrollado por Manuel Rodríguez</div>
+        <div class="footer__text">Para Oracle Next y Alura Latam</div>
+        <div class="footer__text">2022</div> 
+    </footer>
+
+    <script type="module" src="../services/search.js"></script>
+</body>
+</html>

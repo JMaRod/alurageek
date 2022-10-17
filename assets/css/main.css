@@ -1,0 +1,79 @@
+:root{
+    /*
+        hd = header
+        bn = banner
+        bg = background
+        pr = products
+        cf = contactForm
+        ft = footer
+        lg = login
+        dc = description
+    */
+
+    /*      main    */
+    --bg-main-color:#DDECEA;
+    --img-bg-color:#808080;
+
+    /*      header      */
+    --hd-bg-color:#faebd7;
+    --hd-button-color:#2A7AE4;
+    --hd-buttonSession-color:#2A7AE4;
+
+    /*      Banner      */
+    --bn-text-color:#f0f8ff;
+    --bn-button-color:#2A7AE4;
+
+    /*      Products    */
+    --pr-tittle-color:#464646;
+    --pr-line-tittle-link-color:#2A7AE4;
+    --pr-price-color:#464646;
+    --pr-link-color:#2A7AE4;
+    --pr-id-color:#464646;
+    --pr-button-edit-color:#2A7AE4;
+    --pr-button-edit-text:#FFFFFF;
+    --pr-edit-buttons:#29f700;
+
+    /*      ContactForm     */
+    --cf-tittle-color:#464646;
+    --cf-item-bg-color:#FFFFFF;
+    --cf-item-border-color:#C8C8C8;
+    --cf-button-color:#2A7AE4;
+    --cf-button-text:#FFFFFF;
+    --cf-aboutLinks-color:#464646;
+
+    /*      Footer      */
+    --ft-bg-color:#fad7d7;
+
+    /*      Login       */
+    --lg-tittle-text:#464646;
+    --lg-input-border:#C8C8C8;
+    --lg-input-bg:#ffffff30;
+    --lg-input-button:#2A7AE4;
+    --lg-input-button-text:#FFFFFF;
+
+    /*      Add         */
+    --add-tittle-text-color:#464646;
+    --add-item-bg-color:#ffffff30;
+    --add-item-input-text-color:#A2A2A2;
+    --add-item-input-border-color:#C8C8C8;
+    --add-item-button-text-color:#FFFFFF;
+    --add-item-button-color:#2A7AE4;
+
+    /*      Description     */
+    --dc-text-tittle-color:#464646;
+    --dc-text-price-color:#464646;
+    --dc-text-content-color:#464646;
+
+}
+
+
+body{
+    background-color: var(--bg-main-color);
+}
+
+@media screen and (min-width:768px) {
+    /* body {
+        margin: 32px;
+    } */
+    
+}

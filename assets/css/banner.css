@@ -1,0 +1,39 @@
+
+.banner {
+    height: 192px;
+    width: auto;
+    display: flex;
+    align-items: flex-end;
+    background-color: grey;
+    background: 
+        linear-gradient(0deg, rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),
+        linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%),
+        url("../img/banner/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: var(--bn-text-color);
+    padding: 16px;
+}
+
+.banner__tittle {
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.banner__subtittle {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 8px;
+}
+
+.banner__button {
+    width: 30%;
+}

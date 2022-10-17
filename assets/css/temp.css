@@ -1,0 +1,17 @@
+.imgContainer {
+    display: flex;
+    background-color: aqua;
+}
+
+.imgContainer__formitems{
+    display: flex;
+    width: 100%;
+    border-color: blueviolet;
+    border-style: dotted;
+    border-width: 2px;
+}
+
+.previewShowContainer{
+    display: flex;
+    gap: 8px;
+}

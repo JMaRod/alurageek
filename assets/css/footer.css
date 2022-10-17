@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 32px;
+    gap: 10px;
+    background-color: var(--ft-bg-color);
+}
+
+.footer__text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+}

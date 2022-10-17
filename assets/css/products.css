@@ -1,0 +1,19 @@
+/* .products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.products {
+    /* border: 5px solid red; */
+    padding: 16px;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+@media screen and (min-width:768px) {
+    .products {
+        padding: 32px;
+    }
+}
+

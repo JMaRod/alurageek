@@ -1,0 +1,105 @@
+:root{
+    --card-id-text-color:#464646;
+}
+
+.card {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    gap: 8px;
+}
+
+.cards__container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, auto) ;
+    gap: 8px;
+}
+
+/*al card se le añadio --hidden para que este se oculte solo en el index*/
+.card--hidden:nth-child(n+6){
+    display: none;
+}
+
+/* .card--hidden:nth-child(n+5) {
+    display: none;
+} */
+
+.card__img {
+    width: auto;
+    height: 174px;
+    background-color: var(--img-bg-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.card__link {
+    color: var(--pr-link-color);
+    text-decoration: none;
+}
+.card__tittle {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 18px;
+    line-height: 19px;
+    color: var(--pr-tittle-color);
+    margin-top: 8px;
+}
+
+/* .card__subTittle {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--pr-price-color);
+} */
+
+/* .card__link {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--pr-link-color);
+    text-decoration: none;
+} */
+
+/* .card__id {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: var(--card-id-text-color);
+} */
+
+
+/* @media screen and (m-width:360px) {
+    .card--hidden:nth-child(n+5) {
+        display: none;
+    }
+} */
+
+@media screen and (min-width:768px) {
+    .cards__container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .cards__container {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .card:nth-child(n+5){
+        display: grid;
+    }
+}
+
+/* @media screen and (min-width:1024px) {
+    .cards__container {
+        grid-template-columns: repeat(6, auto);
+    }
+} */

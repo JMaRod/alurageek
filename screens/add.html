@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Add</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/buttons.css">
+    <link rel="stylesheet" href="../assets/css/add.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="../assets/css/forms.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="header__logo"></a>
+        <div class="form__items__search__container">
+            <form action="#" class="form__items__search">
+                <input name="search" id="search" class="form__input__search form__input--hidde form__input__search--center" type="text" autocomplete="off" data-tipo="buscar" placeholder="¿Qué deseas buscar?" required>
+                <button type="submit" class="button__head header__search header__search--big material-symbols-outlined">search</button>
+                <button type="submit" class="button__head header__search header__search--smart material-symbols-outlined">search</button>
+            </form>
+        </div>
+        <div class=" header__admin__container">
+            <div class="header__admin__square header__admin__square--green">
+                <div class="header__admin">Administrador</div>
+            </div>
+        </div>
+    </header>
+
+    <section class="add">
+        <div class="form form--add">
+            <h2 class="form__tittle form__tittle--bigger">Agregar o editar un producto</h2>
+            <form action="#" class="form__add">
+                <div class="imgPreview__container">
+                    <div class="form__items imgPreview__formItems">
+                        <div class="previewShowContainer"> 
+                            <img id="previewShow" src="/assets/img/store/default.png" alt="sin imagen">
+                            <h3>
+                                Las imagenes deben estar en la carpeta "store" de la ruta del sito, es decir "/assets/img/store/"
+                            </h3>
+                        </div>
+                        <label for="imgProductShow" class="form__label">URL de la imagen</label>
+                        <input name="imgProductShow" id="imgProductShow" class="form__input form__input__add imgContainer__formItems__input" type="file" autocomplete="off" data-tipo="previewProduct">
+                    </div>
+                </div>
+                <div class="form__items">
+                    <label for="imgProduct" class="form__label">URL de la imagen</label>
+                    <input name="imgProduct" id="imgProduct" class="form__input form__input__add imgContainer__formItems__input" type="text" autocomplete="off" data-tipo="urlProduct" required>
+                </div>
+                <div class="form__items">
+                    <label for="categoryProduct" class="form__label">Categoría</label>
+                    <input name="categoryProduct" id="categoryProduct" class="form__input form__input__add" type="text" autocomplete="off" data-tipo="categoryProduct" required>
+                </div>
+                <div class="form__items">
+                    <label for="nameProduct" class="form__label">Nombre del producto</label>
+                    <input name="nameProduct" id="nameProduct" class="form__input form__input__add" type="text" autocomplete="off" data-tipo="nameProduct" required>
+                </div>
+                <div class="form__items">
+                    <label for="priceProduct" class="form__label">Precio del producto</label>
+                    <input name="priceProduct" id="priceProduct" class="form__input form__input__add" type="text" autocomplete="off" data-tipo="priceProduct" required>
+                </div>
+                <div class="form__items">
+                    <label for="descriptionProduct" class="form__label">Descripción del producto</label>
+                    <textarea name="descriptionProduct" id="descriptionProduct" class="form__input form__input__add" type="text" required data-tipo="descriptionProduct" maxlength="200" autocomplete="off"></textarea>
+                </div>
+                <div class="form__send">
+                    <button class="button__square button__square--100" type="submit" id="submitAdd">Confirmar</button>
+                    <button class="button__square button__square--100 button__square--red" type="submit" id="submitCancel">Cancelar</button>
+                </div>     
+            </form>
+        </div>
+        
+    </section>
+
+
+    <section class="contact">
+        <div class="container__links">
+            <div class="logo">
+                <div class="logo__img">
+                </div>
+            </div>
+            <div class="about__container">
+                <a class="about__links" href="">Quienes somos</a>
+                <a class="about__links" href="">Politica de privacidad</a>
+                <a class="about__links" href="">Programa de fidelidad</a>
+                <a class="about__links" href="">Nuestras Tiendas</a>
+                <a class="about__links" href="">Quiero ser franquiciado</a>
+                <a class="about__links" href="">Anúncie aquí</a>
+            </div>
+        </div>
+        <div class="form">
+            <h2 class="form__tittle">Hable con nosotros</h2>
+            <form action="#" class="form__contact">
+                <div class="form__items">
+                    <label for="name" class="form__label">Nombre</label>
+                    <input name="name" id="name" class="form__input form__input__contact" type="text" autocomplete="off" required data-tipo="nombre">
+                    <span class="form__input__error"></span>
+                </div>
+                <div class="form__items">
+                    <label for="message" class="form__label">Mensaje</label>
+                    <textarea type="text" id="message" name="message" class="form__input form__input__contact" required data-tipo="mensaje" maxlength="120" autocomplete="off" ></textarea>
+                    <span class="form__textarea__error"></span>
+                </div>
+                <div class="form__send">
+                    <button class="button__square" type="submit" id="submitContact">Enviar mensaje</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">  
+        <div class="footer__text">Desarrollado por Manuel Rodríguez</div>
+        <div class="footer__text">Para Oracle Next y Alura Latam</div>
+        <div class="footer__text">2022</div> 
+    </footer>
+
+    <!-- <script type="module" src="../controller/formAdd-controller.js"></script> -->
+    <script type="module" src="../controller/edit-controller.js"></script>
+    
+</body>
+</html>

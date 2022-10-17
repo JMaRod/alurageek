@@ -1,0 +1,20 @@
+.add {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+
+@media screen and (min-width:768px) {
+    .add {
+        padding: 32px;
+    }
+    
+}
+
+@media screen and (min-width:1024px) {
+    .add {
+        padding: 32px 254px
+    }
+}

@@ -1,0 +1,80 @@
+.button__square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: none;
+    background-color:  var(--bn-button-color);
+    color: var(--bn-text-color);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    padding: 12px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button__square--center {
+    width: 109px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.button__square--40 {
+    width: 40%;
+}
+
+.button__square--100 {
+    width: 100%;
+}
+
+.button__square--red {
+    background-color: rgb(225, 9, 9);
+}
+
+.button__head {
+    text-decoration: none;
+    background: none;
+    border: none;
+}
+.category__tittle__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    gap: 7px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color:var(--pr-line-tittle-link-color);
+    line-height: 16px;
+}
+
+.category__tittle__link:visited {
+    text-decoration: none;
+}
+
+.category__tittle__link__icono {
+    font-size: x-large;
+}
+
+.card__button__edit {
+    text-align: end;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.card__button__edit__link, .card__button__remove__link {
+    color: var(--pr-edit-buttons);
+    font-variation-settings:
+    'fill' 1,
+    'wght' 700
+}
+
+@media screen and (min-width:1024px) {
+    .button__square--center {
+        width: 100%;
+    }
+    
+}

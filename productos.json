@@ -1,0 +1,166 @@
+{
+  "products": [
+    {
+      "img": "/assets/img/store/star-cup.png",
+      "category": "Star Wars",
+      "name": "taza de Star Wars",
+      "price": "60.00",
+      "description": "Taza de casco de soldado imperial",
+      "id": 10001
+    },
+    {
+      "img": "/assets/img/store/star-vader.png",
+      "category": "Star Wars",
+      "name": "Lego Vader",
+      "price": "65.00",
+      "description": "Kit de bloques de Lego para formar casco de Darth Vader",
+      "id": 10002
+    },
+    {
+      "img": "/assets/img/store/star-yoda.png",
+      "category": "Star Wars",
+      "name": "Figura Yoda",
+      "price": "70.00",
+      "description": "Figura de colección de Yoda",
+      "id": 10003
+    },
+    {
+      "img": "/assets/img/store/star-storm.png",
+      "category": "Star Wars",
+      "name": "Figura soldado imperial",
+      "price": "72.00",
+      "description": "Figura de colección de soldado imperial ",
+      "id": 10004
+    },
+    {
+      "id": 10005,
+      "img": "/assets/img/store/star-baby.png",
+      "category": "Star Wars",
+      "name": "Figura baby Yoda",
+      "price": "75.00",
+      "description": "Muñeco de baby Yoda"
+    },
+    {
+      "id": 10006,
+      "img": "/assets/img/store/star-kylo.png",
+      "category": "Star Wars",
+      "name": "Figura Kylo Ren",
+      "price": "55.00",
+      "description": "Figura de colección de Kylo Ren"
+    },
+    {
+      "id": 10007,
+      "img": "/assets/img/store/console-controlXbox.png",
+      "category": "Consolas",
+      "name": "Control Xbox",
+      "price": "60.00",
+      "description": "Control blanco para Xbox one"
+    },
+    {
+      "id": 10008,
+      "img": "/assets/img/store/console-kitPs5.png",
+      "category": "Consolas",
+      "name": "Kit Ps5",
+      "price": "65.00",
+      "description": "Paquete de consola Ps5 con accesorios inculidos"
+    },
+    {
+      "id": 10009,
+      "img": "/assets/img/store/console-miniNes.png",
+      "category": "Consolas",
+      "name": "Mini Nes",
+      "price": "70.00",
+      "description": "Consola Mini Nes classic"
+    },
+    {
+      "id": 10010,
+      "img": "/assets/img/store/console-controlSwitch.png",
+      "category": "Consolas",
+      "name": "Control Switch",
+      "price": "72.00",
+      "description": "Control clasico para consola Nintendo Switch "
+    },
+    {
+      "id": 10011,
+      "img": "/assets/img/store/console-kitXbox.png",
+      "category": "Consolas",
+      "name": "Kit Xbox",
+      "price": "75.00",
+      "description": "Paquete de consola Xbox One con accesorios inculidos"
+    },
+    {
+      "id": 10012,
+      "img": "/assets/img/store/console-gameBoyColor.png",
+      "category": "Consolas",
+      "name": "GameBoy Color",
+      "price": "55.00",
+      "description": "Consola usada Gameboy Color"
+    },
+    {
+      "id": 10013,
+      "img": "/assets/img/store/various-camisaAtari.png",
+      "category": "Varios",
+      "name": "Playera Atari",
+      "price": "60.00",
+      "description": "Playera blanca de Atari"
+    },
+    {
+      "id": 10014,
+      "img": "/assets/img/store/various-camisaNes.png",
+      "category": "Varios",
+      "name": "Playera Nes",
+      "price": "65.00",
+      "description": "Playera gris con adorno de control de Nes"
+    },
+    {
+      "id": 10015,
+      "img": "/assets/img/store/various-figuraSonic.png",
+      "category": "Varios",
+      "name": "Figura Sonic",
+      "price": "70.00",
+      "description": "Figura de colección de sonic"
+    },
+    {
+      "id": 10016,
+      "img": "/assets/img/store/various-relojRetro.png",
+      "category": "Varios",
+      "name": "Consola Retro",
+      "price": "72.00",
+      "description": "Consola para juegos clasicos"
+    },
+    {
+      "id": 10017,
+      "img": "/assets/img/store/various-kitVr.png",
+      "category": "Varios",
+      "name": "Kit Vr",
+      "price": "75.00",
+      "description": "Kit completo de accesorios para jugar Vr"
+    },
+    {
+      "id": 10018,
+      "img": "/assets/img/store/various-peluchePikachu.png",
+      "category": "Varios",
+      "name": "Peluche Pikachu",
+      "price": "55.00",
+      "description": "Peluche con forma de Pikachu"
+    },
+    {
+      "img": "/assets/img/store/star-cup.png",
+      "category": "Bueva",
+      "name": "prueba",
+      "price": "123",
+      "description": "eeasda kjkj",
+      "id": 10019
+    }
+  ],
+  "users": [
+    {
+      "email": "usu1@alura.com",
+      "pass": "usuario1"
+    },
+    {
+      "email": "usu2@alura.com",
+      "pass": "usuario2"
+    }
+  ]
+}

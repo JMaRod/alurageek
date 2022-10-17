@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek - Descripcinón</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/buttons.css">
+    <link rel="stylesheet" href="../assets/css/description.css">
+    <link rel="stylesheet" href="../assets/css/products.css">
+    <link rel="stylesheet" href="../assets/css/category.css">
+    <link rel="stylesheet" href="../assets/css/card.css">
+    <link rel="stylesheet" href="../assets/css/cardImg.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="../assets/css/forms.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="header__logo"></a>
+        <div class="form__items__search__container">
+            <form action="#" class="form__items__search">
+                <input name="search" id="search" class="form__input__search form__input--hidde form__input__search--center" type="text" autocomplete="off" data-tipo="buscar" placeholder="¿Qué deseas buscar?" required>
+                <button type="submit" class="button__head header__search header__search--big material-symbols-outlined">search</button>
+                <button type="submit" class="button__head header__search header__search--smart material-symbols-outlined">search</button>
+            </form>
+        </div>
+        <div class="header__buttonSession__container">
+            <div class="header__buttonSession">
+                <button class="header__buttonSession__link">LOGIN</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="description">
+        <template id="templateDescription">
+            <img src="" class="description__img" alt="">
+            <div class="description__text">
+                <div class="description__text__tittle">
+                </div>
+                <div class="description__text__price">
+                </div>
+                <div class="description__text__content">
+                </div>
+            </div>
+        </template>
+    </section>
+
+    <section class="products products--index">
+        <div class="category ">
+            <div class="category__tittle">
+                <h2 class="category__tittle__text">Productos relacionados</h2>
+            </div>
+            <div class="cards__container">
+                <template id="cardsTemplate">
+                    <div class="card card--hidden">
+                        <div class="card__img card__img--"></div>
+                        <div class="card__tittle"></div>
+                        <div class="card__subTittle"></div>
+                        <a  class="card__link" href="./description.html"><span>Ver Producto</span></a>
+                    </div>
+                </template>
+            </div>
+            <!-- <template id="cardsTemplate">
+            </template> -->
+            <!-- <div class="cards__container">
+                <div class="card card--hidden">
+                    <div class="card__img card__img--controlXbox"></div>
+                    <div class="card__tittle">Control Xbox</div>
+                    <div class="card__subTittle">$60.00</div>
+                    <a  class="card__link" href="./description.html"><span>Ver Producto</span></a>
+                </div>
+                <div class="card card--hidden">
+                    <div class="card__img card__img--kitPs5"></div>
+                    <div class="card__tittle">Kit Ps5</div>
+                    <div class="card__subTittle">$65.00</div>
+                    <a  class="card__link" href="./description.html"><span>Ver Producto</span></a>
+                </div>
+                <div class="card card--hidden">
+                    <div class="card__img card__img--miniNes"></div>
+                    <div class="card__tittle">Mini Nes</div>
+                    <div class="card__subTittle">$70.00</div>
+                    <a  class="card__link" href="./description.html"><span>Ver Producto</span></a>
+                </div>
+                <div class="card card--hidden">
+                    <div class="card__img card__img--controlSwitch"></div>
+                    <div class="card__tittle">Control Switch</div>
+                    <div class="card__subTittle">$72.00</div>
+                    <a  class="card__link" href="./description.html"><span>Ver Producto</span></a>
+                </div>
+                <div class="card card--hidden">
+                    <div class="card__img card__img--kitXbox"></div>
+                    <div class="card__tittle">Kit Xbox</div>
+                    <div class="card__subTittle">$75.00</div>
+                    <a  class="card__link" href="./description.html"><span>Ver Producto</span></a>
+                </div>
+                <div class="card card--hidden">
+                    <div class="card__img card__img--gameBoyColor"></div>
+                    <div class="card__tittle">Game Boy Color</div>
+                    <div class="card__subTittle">$55.00</div>
+                    <a  class="card__link" href="./description.html"><span>Ver Producto</span></a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+
+    <section class="contact">
+        <div class="container__links">
+            <div class="logo">
+                <div class="logo__img">
+                </div>
+            </div>
+            <div class="about__container">
+                <a class="about__links" href="">Quienes somos</a>
+                <a class="about__links" href="">Politica de privacidad</a>
+                <a class="about__links" href="">Programa de fidelidad</a>
+                <a class="about__links" href="">Nuestras Tiendas</a>
+                <a class="about__links" href="">Quiero ser franquiciado</a>
+                <a class="about__links" href="">Anúncie aquí</a>
+            </div>
+        </div>
+        <div class="form">
+            <h2 class="form__tittle">Hable con nosotros</h2>
+            <form action="#" class="form__contact">
+                <div class="form__items">
+                    <label for="name" class="form__label">Nombre</label>
+                    <input name="name" id="name" class="form__input form__input__contact" type="text" autocomplete="off" required data-tipo="nombre">
+                    <span class="form__input__error"></span>
+                </div>
+                <div class="form__items">
+                    <label for="message" class="form__label">Mensaje</label>
+                    <textarea type="text" id="message" name="message" class="form__input form__input__contact" required data-tipo="mensaje" maxlength="120" autocomplete="off" ></textarea>
+                    <span class="form__textarea__error"></span>
+                </div>
+                <div class="form__send">
+                    <button class="button__square" type="submit" id="submitContact">Enviar mensaje</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <script type="module" src="../controller/description-controller.js"></script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiendageek - edit</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&family=Open+Sans:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/normalize.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/buttons.css">
+    <link rel="stylesheet" href="../assets/css/products.css">
+    <link rel="stylesheet" href="../assets/css/category.css">
+    <link rel="stylesheet" href="../assets/css/card.css">
+    <link rel="stylesheet" href="../assets/css/cardImg.css">
+    <link rel="stylesheet" href="../assets/css/forms.css">
+    <link rel="stylesheet" href="../assets/css/contact.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html" class="header__logo"></a>
+        <div class="form__items__search__container">
+            <form class="form__items__search">
+                <input name="search" id="search" class="form__input__search form__input--hidde form__input__search--center" type="text" autocomplete="off" data-tipo="nombre" placeholder="¿Qué deseas buscar?">
+                <button type="submit" class="button__head header__search header__search--big material-symbols-outlined">search</button>
+                <button type="submit" class="button__head header__search header__search--smart material-symbols-outlined">search</button>
+            </form>
+        </div>
+        <div class=" header__admin__container">
+            <div class="header__admin__square header__admin__square--green">
+                <div class="header__admin">Administrador</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="products">   
+            <div class="category" id="Todos">
+                <div class="category__tittle category__tittle--edit">
+                    <h2 class="category__tittle__text category__tittle__text--row">Todos los productos</h2>
+                    <a href="./add.html" class="button__square">Agregar Producto</a>
+                </div>
+                <div class="cards__container">
+                    <template id="templateCardEdit">
+                        <div class="card">
+                            <div class="card__img card__img--">
+                                <div class="card__button__edit">
+                                    <a class="card__button__remove__link" href=""><span class="removeBtn material-symbols-outlined">delete</span></a>
+                                    <a id="editBtn" class="card__button__edit__link"><span  class="material-symbols-outlined">edit</span></a>
+                                </div>
+                            </div>
+                            <div class="card__tittle"></div>
+                            <div class="card__subTittle"></div>
+                            <div class="card__id"></div>
+                        </div>
+                    </template>     
+                </div>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="container__links">
+                <div class="logo">
+                    <div class="logo__img">
+                    </div>
+                </div>
+                <div class="about__container">
+                    <a class="about__links" href="">Quienes somos</a>
+                    <a class="about__links" href="">Politica de privacidad</a>
+                    <a class="about__links" href="">Programa de fidelidad</a>
+                    <a class="about__links" href="">Nuestras Tiendas</a>
+                    <a class="about__links" href="">Quiero ser franquiciado</a>
+                    <a class="about__links" href="">Anúncie aquí</a>
+                </div>
+            </div>
+            <div class="form">
+                <h2 class="form__tittle">Hable con nosotros</h2>
+                <form action="#" class="form__contact">
+                    <div class="form__items">
+                        <label for="name" class="form__label">Nombre</label>
+                        <input name="name" id="name" class="form__input form__input__contact" type="text" autocomplete="off" required data-tipo="nombre">
+                        <span class="form__input__error"></span>
+                    </div>
+                    <div class="form__items">
+                        <label for="message" class="form__label">Mensaje</label>
+                        <textarea type="text" id="message" name="message" class="form__input form__input__contact" required data-tipo="mensaje" maxlength="120" autocomplete="off" ></textarea>
+                        <span class="form__textarea__error"></span>
+                    </div>
+                    <div class="form__send">
+                        <button class="button__square" type="submit" id="submitContact">Enviar mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">  
+        <div class="footer__text">Desarrollado por Manuel Rodríguez</div>
+        <div class="footer__text">Para Oracle Next y Alura Latam</div>
+        <div class="footer__text">2022</div> 
+    </footer>
+    <!--se cambio ../controller/formContact-controller.js por ../controller/edit-controller.js-->
+    <script type="module" src="../controller/show-products-admin.js"></script>
+</body>
+</html>

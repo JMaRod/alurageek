@@ -1,0 +1,10 @@
+.add__tittle {
+    width: 100%;
+    color: var(--add-tittle-text-color);
+    font-family: "Roboto", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
